@@ -1,0 +1,51 @@
+.navbar_parent{
+    height: 60px;
+    background-color: rgba(161, 156, 156,0.4);;
+    display: flex;
+}
+.nav{
+   margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+}
+
+.nav1{
+    display: flex;
+    gap: 20px;
+}
+
+.cart_logo {
+    padding-right: 0.8rem;
+    position: relative;
+}
+
+.cart_length{
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+@media screen and (max-width : 420px) {
+    
+    .navbar_parent{
+        height: 60px;
+        background-color: rgba(161, 156, 156,0.4);;
+        display: flex;
+    }
+    .nav{
+       margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        align-items: center;
+    }
+    
+    .nav1 > div:first-child{
+       display: none;
+    }
+}
+

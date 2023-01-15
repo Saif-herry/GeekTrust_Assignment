@@ -1,0 +1,114 @@
+.SearchBox_div {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.Input_Search {
+  width: 300px;
+  height: 30px;
+  border-top: none;
+  outline: none;
+  border-left: none;
+  border-right: none;
+}
+
+.FiSearch_div {
+  background-color: rgba(161, 156, 156, 0.4);
+  width: 40px;
+  border-radius: 2px;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.OutlineFilter_div {
+    display: none;
+    background-color: rgba(161, 156, 156, 0.4);
+    width: 40px;
+    border-radius: 2px;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  /* .OutlineFilter_div1 {
+    display: none;
+   
+  } */
+
+
+.Parent_Container {
+  display: grid;
+  grid-template-columns: 20% 60%;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 6%;
+}
+
+.SideBar {
+  height: 500px;
+  border: 1px solid red;
+}
+
+.Product_Crd {
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  row-gap: 20px;
+}
+
+.Crd {
+  width: 235px;
+  height: 255px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid rgba(228, 225, 225, 0.2);
+  padding: 4px;
+}
+
+.Crd_Img {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  width: 179px;
+  height: 179px;
+  margin-top: 20px;
+}
+
+.Crd_Img img {
+  width: 180px;
+  height: 180px;
+  margin-left: 40px;
+}
+
+.Product_Name {
+  position: absolute;
+  font-weight: bold;
+  margin-left: -68px;
+  margin-top: -19px;
+}
+
+.Crd_info_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.Crd_Price {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.Crd_button {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 20px;
+}
